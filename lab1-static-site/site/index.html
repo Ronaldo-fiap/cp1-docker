@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAB 1 - Página Estática Docker</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 40px;
+    }
+    .container {
+      background: white;
+      max-width: 800px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    img {
+      max-width: 400px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: #0a6de6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LAB 1 - Página Estática em Docker</h1>
+    <p>Esta página está sendo servida por um container NGINX.</p>
+    <p>A imagem foi adicionada via bind mount, conforme solicitado no laboratório.</p>
+    <img src="imagem.jpg" alt="Imagem do laboratório">
+  </div>
+</body>
+</html>
